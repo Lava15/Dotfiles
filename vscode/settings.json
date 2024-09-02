@@ -1,13 +1,24 @@
 {
+  "vscode-neovim.neovimClean": true,
   "files.associations": {
     "*.tmpl": "html"
   },
   "apc.stylesheet": {
+    // DARK THEME CURSOR
     ".cursor": "background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);",
+
+    // WHITE THEME CURSOR
+    // ".cursor": "background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);",
+
+    // DARK THEME WIDGET
     ".quick-input-widget": "background: linear-gradient(to top, #30cfd0 0%, #330867 100%); border-radius: 5px; border: none; margin-top: 15%",
-    ".monaco-inputbox": "padding: 10px;"
+
+    // WHITE THEME WIDGET
+    // ".quick-input-widget": "background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%); border-radius: 5px; border: none; margin-top: 15%",
+
+    ".monaco-inputbox": "padding: 10px;",
   },
-  "workbench.iconTheme": "eq-material-theme-icons-light",
+  "workbench.iconTheme": "material-icon-theme",
   "editor.formatOnSave": false,
   "editor.copyWithSyntaxHighlighting": false,
   "editor.snippetSuggestions": "top",
@@ -34,10 +45,11 @@
     "terminal.ansiRed": "#FB543F",
     "terminal.ansiWhite": "#A89984",
     "terminal.ansiYellow": "#FAC03B",
-    "editorSuggestWidget.background": "#231739",
-    "sideBar.background": "#16111e", 
+    // "editorSuggestWidget.background": "#231739",
+    // "sideBar.background": "#00000000", 
+    // "editor.background": "#00000000",
     "list.inactiveSelectionBackground": "#00fffb29",
-    "list.focusBackground": "#231739", 
+    // "list.focusBackground": "#231739", 
     "list.hoverBackground": "#00fffb29"
   },
   "intelephense.maxMemory": 3000000,
@@ -174,6 +186,6 @@
   "animations.Install-Method": "Apc Customize UI++",
   "editor.semanticHighlighting.enabled": false,
   "workbench.colorTheme": "Aura Dracula Spirit (Soft)",
-  "vscode-neovim.neovimClean": true,
-  "window.customTitleBarVisibility": "auto"
+  "window.customTitleBarVisibility": "auto",
+  "editor.stickyScroll.enabled": false
 }
