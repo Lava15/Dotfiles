@@ -1,5 +1,4 @@
 {
-  "vscode-neovim.neovimClean": true,
   "files.associations": {
     "*.tmpl": "html"
   },

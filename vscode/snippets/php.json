@@ -1,0 +1,20 @@
+{
+    "Public Function": {
+      "prefix": "pubf",
+      "body": [
+        "public function ${1:functionName}(): void {",
+        "\t${2}",
+        "}"
+      ],
+      "description": "Create a public function"
+    },
+    "Public Static Function": {
+      "prefix": "pubs",
+      "body": [
+        "public static function ${1:functionName}(): void {",
+        "\t${2}",
+        "}"
+      ],
+      "description": "Create a public static function"
+    }
+  }

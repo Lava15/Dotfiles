@@ -33,4 +33,4 @@ vim.keymap.set('v'. 'p'. 'P')
 vim.cmd('nmap <leader>c :e ~/.config/nvim/init.lua<cr>')
 vim.cmd('nmap <leader>s :w<cr>')
 vim.cmd('nmap j gj')
-vim.cmd('nmap k gk')q
+vim.cmd('nmap k gk')
