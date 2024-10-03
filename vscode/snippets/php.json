@@ -1,20 +1,29 @@
 {
-    "Public Function": {
-      "prefix": "pubf",
-      "body": [
-        "public function ${1:functionName}(): void {",
-        "\t${2}",
-        "}"
-      ],
-      "description": "Create a public function"
-    },
-    "Public Static Function": {
-      "prefix": "pubs",
-      "body": [
-        "public static function ${1:functionName}(): void {",
-        "\t${2}",
-        "}"
-      ],
-      "description": "Create a public static function"
-    }
+  "Public Function": {
+    "prefix": "pubf",
+    "body": [
+      "public function ${1:functionName}(): void {",
+      "\t${2}",
+      "}"
+    ],
+    "description": "Create a public function"
+  },
+  "Public Static Function": {
+    "prefix": "pubs",
+    "body": [
+      "public static function ${1:functionName}(): void {",
+      "\t${2}",
+      "}"
+    ],
+    "description": "Create a public static function"
+  },
+  "PHP Constructor": {
+    "prefix": "__co",
+    "body": [
+      "public function __construct(${1:/* parameters */}) {",
+      "    ${0:// code}",
+      "}"
+    ],
+    "description": "Create a PHP constructor function"
   }
+}
